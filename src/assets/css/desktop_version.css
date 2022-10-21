@@ -2,7 +2,8 @@
 
 
 /* you may add to or change the body rule */
-body {
+@media screen and (min-width: 700px) {
+    body {
     font-family: sans-serif;
     color: #fff;
     background: #000;
@@ -107,4 +108,5 @@ section {
     display: flex;
     flex-direction: column;
     padding: 20px;
+}
 }
